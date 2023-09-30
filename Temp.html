@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/New website codeing/learning css/Temp.css">
+    <script src="/New website codeing/learning css/Temp.js"></script>
+    <title>Temp</title>
+</head>
+<body>
+    <h1>Temprature Converter</h1>
+
+    <main>
+        <form id="converter-form">
+            <label for="temperature">Enter Temperature:</label>
+            <input type="number" id="temperature" required>
+            <select id="from-unit">
+                <!-- Populate this dropdown with temperature scales -->
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <label>to</label>
+            <select id="to-unit">
+                <!-- Populate this dropdown with temperature scales -->
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="result">
+            <label class="res" for="result-field">Result:</label>
+            <input type="number" id="result-field" readonly>
+        </div>
+    </main>
+
+
+   
+    <hr>
+</body>
+</html>
